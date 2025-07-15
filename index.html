@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quatable_API</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+
+    <div id="nav">
+        <div id="nav-notation">
+            <h3 id="sky">SkyCast</h3>
+        </div>
+        <div id="search-box">
+            <i class="ri-search-line"></i>
+            <input type="text" placeholder="Search location">
+            <button id="btn">search</button>
+        </div>
+ 
+    </div>
+    <div class="container">
+        <div class="conainer-information">
+            <div class="current-weather">
+                <div id="weather-information">
+                    <h6 id="greet">Current Weather</h6>
+                    <div id="temp">
+                        <h1></h1>
+                        <div id="cond">
+                            <img id="image" src="" alt="">
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="current-info">
+                <div class="ci" id="wind">
+                    <div class="title">
+                        <i class="ri-windy-line icons"></i>
+                        <h3 class="current-weather-name">Wind</h3>
+                    </div>
+                    <h2 id="windspeed" class="situation"></h2>
+                </div>
+
+
+                <div class="ci" id="Air-quality">
+                    <div class="title">
+                        <i class="ri-cloud-windy-line icons"></i>
+                        <h3 class="current-weather-name">AIQ</h3>
+                    </div>
+                    <h2 id="air-standard" class="situation"></h2>
+                </div>
+
+
+                <div class="ci" id="humidity">
+                    <div class="title">
+                        <i class="ri-drop-line icons"></i>
+                        <h3 class="current-weather-name">humidity</h3>
+                    </div>
+                    <h2 id="humidity-air" class="situation"></h2>
+                </div>
+
+
+                <div class="ci" id="visiblity">
+                    <div class="title">
+                        <i class="ri-eye-line icons"></i>
+                        <h3 class="current-weather-name">visiblity</h3>
+                    </div>
+                    <h2 id="vision" class="situation"></h2>
+                </div>
+
+
+                <div class="ci" id="pressure">
+                    <div class="title">
+                        <i class="ri-temp-hot-fill icons"></i>
+                        <h3 class="current-weather-name">pressure</h3>
+                    </div>
+                    <h2 id="compulsion" class="situation"></h2>
+                </div>
+
+
+                <div class="ci" id="pressure">
+                    <div class="title">
+                        <i class="ri-meteor-line icons"></i>
+                        <h3 class="current-weather-name">pressure</h3>
+                    </div>
+                    <h2 id="barometer" class="situation"></h2>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
